@@ -1,0 +1,562 @@
+<?xml version="1.0"?>
+
+	<!--
+		==================================
+		Instructions
+		==================================
+
+		General
+			- change "&" to "&#x26;"
+			- change "'" to "&#x27;"
+
+		Links
+			- change "(" and ")" to "%28" and "%29"
+			- if the link contains any "&" or "<" or other strange characters wrap the link inbetween
+				- "<![CDATA[" and "]]>"
+
+		Title
+			- line break: "/"
+			- filenames are generated through the first line of the title
+				- filenames must be unique!
+				- use the attribute "forcedFilename" to define unique filenames!
+	-->
+
+<cards>
+
+	<!--
+		==================================
+		Interface Design / General
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>0</cardCategoryId>   <!--  defining the category by index is not very nice -->
+		<title forcedFilename="interfacedesign">interface/design/cards</title>
+		<text>arrange # think # discuss! # read between the cards!</text>
+		<link>https://developer.apple.com/design/human-interface-guidelines/</link>
+		<link>https://www.gamedeveloper.com/audio/6-examples-of-ui-design-that-every-game-developer-should-study</link>
+		<!-- link>http://finegamedesign.com/ui/</link-->
+		<link>https://www.gdcvault.com/play/1023460/tenacious-design-and-the-interface</link> <!-- ...of Destiny -->
+		<link>https://gamedesignconcepts.wordpress.com/2009/08/24/level-17-user-interfaces/</link>
+		<link>texts/Schell_ThroughAnInterface.pdf</link>
+		<link>https://www.interaction-design.org/literature</link>
+		<link>https://celiahodent.com/resources/</link>
+		<link>https://donhopkins.medium.com/</link>
+		<link>https://www.youtube.com/watch?v=sc3h5JXtIzw</link> <!-- Riot: So You Wanna Make Games?? | Episode 9: User Interface Design -->
+		<link>https://www.youtube.com/watch?v=mPD5dUBFsps</link> <!-- Intro to UX Design - User Experience and You - Extra Credits -->
+		<link>https://web.archive.org/web/20210302100347/https://videogameinterfaces.com/</link>
+		<link>https://www.gameuidatabase.com</link>
+		<link>texts/Interfaces_Examples.pdf</link>
+	</card>
+
+	<!--
+		==================================
+		Theories / Ideas / Concepts
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>accessibility</title>
+		<text>why? # relationship with other topics? # categorisation?</text>
+		<link>http://gameaccessibilityguidelines.com</link>
+		<link>https://www.gameanalytics.com/blog/how-to-expand-your-audience-with-game-accessibility.html</link>
+		<link>http://includification.com/AbleGamers_Includification.pdf</link>
+		<link>http://www.gamesindustry.biz/articles/2017-10-09-accessibility-on-a-budget</link>
+		<link><![CDATA[https://www.youtube.com/playlist?list=PLc38fcMFcV_vvWOhMDriBlVocTZ8mKQzR]]></link> <!-- Game Maker's Toolkit: Designing for Disability -->
+		<link>https://www.xbox.com/de-DE/xbox-one/accessories/controllers/xbox-adaptive-controller</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>difficulty</title>
+		<text>how to deal with it? # relationship with other topics? # categorisation?</text>
+		<!-- link>https://twitter.com/terrycavanagh/status/1115222285311463424</link--> <!-- some random thoughts on the whole... -->
+		<link>https://www.jesperjuul.net/artoffailure/</link>
+		<link>https://www.gamedeveloper.com/design/pain-difficulty-and-getting-over-it</link>
+		<link>https://twitter.com/bfod/status/1113640997723017216</link> <!-- A lot of people have been asking me... -->
+		<link>https://www.gamedeveloper.com/design/cognitive-flow-the-psychology-of-great-game-design</link>
+		<link>https://www.youtube.com/watch?v=ea6UuRTjkKs</link> <!-- Extra Credits: When Difficult Is Fun - Challenging vs. Punishing Games -->
+		<link>https://www.youtube.com/watch?v=MM2dDF4B9a4</link> <!-- Extra Credits: The True Genius of Dark Souls II - How to Approach Game Difficulty -->
+		<link>https://www.youtube.com/watch?v=c2CLO8CcBjg</link> <!-- GMTK: Are Lives Outdated Game Design? -->
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="experiencelevels">experience/levels</title>
+		<text>what do they mean? # how to approach them? # types of experiences and skills? # relationship with other topics? # shortcuts and customisation? # categorisation?</text>
+		<link>texts/AboutFace3_ExperienceLevels.pdf</link>
+		<link>http://ui-patterns.com/patterns/keyboard-shortcuts</link>
+		<link>http://leveldesignporn.csongorb.com/tutorials.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="designofeverydaygames">design of/everyday/games</title>
+		<text>Don Norman&#x27;s ideas applied to games? # relationship with other topics?</text>
+		<link>https://www.youtube.com/watch?v=fy-J_E55rw0&#x26;list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl</link> <!-- Udacity: The Design of Everyday Things -->
+		<link>http://www.lizengland.com/blog/2016/06/review-the-design-of-everyday-things-by-don-norman/</link>
+		<link>https://www.nngroup.com/articles/usability-heuristics-applied-video-games/</link>
+		<link>https://www.gamedeveloper.com/design/video-how-to-design-games-with-user-experience-in-mind</link> <!-- Christina Wodtke -->
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="3levelsofemotionaldesign">three levels of/emotional/design</title>
+		<text>what are they? # game examples? # how to design for them?</text>
+		<link>https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design</link>
+		<link>https://www.ted.com/talks/don_norman_3_ways_good_design_makes_you_happy</link>
+		<link>https://www.nngroup.com/books/emotional-design/</link> <!-- Don Norman: Emotional Design - Why we love (or hate) everyday things -->
+		<link>texts/Norman_EmotionalDesign_ThreeLevels.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="APIs">APIs</title>
+		<text>software architecture? # internal vs. external? # constituative rules? # how much of the system is visible? # how much of the system is accessible? # difficulties? # classification?</text>
+		<link>https://en.wikipedia.org/wiki/Application_programming_interface</link>
+		<link>https://en.wikipedia.org/wiki/JSON</link>
+		<link>https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html</link>
+		<link>https://docs.unity3d.com/Manual/VariablesAndTheInspector.html</link>
+		<link>https://gamedesignconcepts.wordpress.com/2009/07/06/level-3-formal-elements-of-games/</link>
+		<link>https://www.interaction-design.org/literature/article/the-rules-of-play-directing-gamer-and-user-behaviour</link> <!-- Constitutional vs. Operational Rules -->
+		<link>http://leveldesignporn.csongorb.com/analytics.html</link>
+		<link>http://leveldesignporn.csongorb.com/modding.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>metaphors</title>
+		<text>examples? # difficulties? # relationship with other topics?</text>
+		<link>https://en.wikipedia.org/wiki/Interface_metaphor</link>
+		<link>https://www.wired.com/2010/12/1209computer-mouse-mother-of-all-demos/</link>
+		<link>https://www.researchgate.net/publication/242609101_Working_with_interface_metaphors_In_The_art_of_human-computer_interface_design</link>
+		<link>https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html</link> <!--Lakoff and Johnson: Metaphors We Live By -->
+		<link>https://web.archive.org/web/20211204174307/https://redalemeden.com/itunes/</link>
+		<link>https://www.youtube.com/watch?v=R_sear6P058</link> <!-- How To Choose a Theme for Your Game? (Plants vs. Zombies) -->
+		<link>https://medium.com/@borism/menus-metaphors-and-materials-milestones-of-user-interface-design-f3f75481c46c</link>
+		<link>http://narrativedesignporn.csongorb.com/themevsmechanics.html</link>
+		<link>texts/Moggridge_DesigningInteraction_DesktopPC.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="affordancesandsignifiers">affordances/&#x26; signifiers</title>
+		<text>how are they connected? # how are they different? # how are they used in games? # examples?</text>
+		<link><![CDATA[https://www.youtube.com/watch?v=a6F0EYCUjcE&list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl&index=10]]></link> <!-- Affordance Definition (Udacity) -->
+		<link><![CDATA[https://www.youtube.com/watch?v=ZQ-jirlAoD4&list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl&index=14]]></link> <!-- Signifiers Definition (Udacity) -->
+		<link>https://normandoors.tumblr.com</link>
+		<link>texts/Norman_DesignOfEverydayThings_Affordance.pdf</link>
+		<link>https://www.youtube.com/watch?v=QCSXEKHL6fc</link> <!-- Extra Credits: Affordances -->
+		<link>https://99percentinvisible.org/article/norman-doors-dont-know-whether-push-pull-blame-design/</link>
+		<link>https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affordances</link>
+		<link>http://narrativedesignporn.csongorb.com/themevsmechanics.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title forcedFilename="conceptualmodel">conceptual model</title>
+		<text>overview? # what is a (good) system image? # examples?</text>
+		<link><![CDATA[https://www.youtube.com/watch?v=pAOyWFOFhsg&list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl&index=30]]></link> <!-- Don Norman: Introduction to Conceptual Models (Udacity) -->
+		<link><![CDATA[https://www.youtube.com/watch?v=-UvlRFP3_uI&list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl&index=37]]></link> <!-- System Image (Udacity) -->
+		<link>http://www.gamasutra.com/view/feature/129948/the_chemistry_of_game_design.php?print=1</link>
+		<link>https://simonschreibt.de/gdt/sacred-2-floating-point-numbers/</link>
+		<link>https://www.youtube.com/watch?v=3DaxkPXCNjOh8</link> <!-- Hearthstone: How to Create an Immersive User Interface -->
+		<link>http://leveldesignporn.csongorb.com/cognitivemodeling.html</link>
+		<link>http://leveldesignporn.csongorb.com/mentalmaps.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>modes</title>
+		<text>overview? # categorisation? # mode, modality, multimodality? # how to use? # examples? # how is it different to modal dialogs?</text>
+		<link>https://en.wikipedia.org/wiki/Mode_(computer_interface)</link>
+		<link>https://en.wikipedia.org/wiki/Modality_(human%E2%80%93computer_interaction)</link>
+		<link>https://en.wikipedia.org/wiki/Multimodal_interaction</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>mapping</title>
+		<text>what is this? # connection to other topics? # examples?</text>
+		<link>texts/Norman_DesignOfEverydayThings_Mapping.pdf</link>
+		<link>https://en.wikipedia.org/wiki/Natural_mapping_(interface_design)</link>
+		<!-- link>https://sites.google.com/site/thedesignofeverydaythings/home/mappings</link-->
+		<link>http://leveldesignporn.csongorb.com/mentalmaps.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>perception</title>
+		<text>relationship to interface design? # relationship to other topics? # senses? # classification? # examples?</text>
+		<link>https://www.youtube.com/watch?v=XIpDLa585ao</link> <!-- The Gamer's Brain: How Neuroscience and UX Can Impact Design -->
+		<link>https://en.wikipedia.org/wiki/The_Humane_Interface</link>
+		<link>https://www.amazon.com/Designing-Mind-Understanding-Interface-Guidelines/dp/0124079148</link>
+		<link>https://en.wikipedia.org/wiki/Sense</link>
+		<link>https://leveldesignporn.csongorb.com/visualperception.html</link>
+		<link>https://leveldesignporn.csongorb.com/cognitivemodeling.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>habits</title>
+		<text>what is that? # categorisation? # phases? # how to acquire, how to change, how to abandon? # conciousness vs. unconciousness? # in-game or from the outside?</text>
+		<link>https://www.annualreviews.org/doi/full/10.1146/annurev-psych-122414-033417</link> <!-- Wendy Wood and Dennis Rünger: Psychology of Habit -->
+		<link>https://www.interaction-design.org/literature/article/habits-five-ways-to-help-users-change-them</link>
+		<link>https://blog.ncase.me/habits-i-tried-to-make-in-2018/</link>
+		<link>https://medium.com/ux-immersion-interactions/adding-new-features-can-literally-be-a-game-changer-c20a78f1c66c</link> <!-- Designing for Habits -->
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>diegesis</title>
+		<text>categorisation? # examples? # in-picture vs. in-scene vs. in-magic-circle?</text>
+		<link>https://www.gamedeveloper.com/design/game-ui-discoveries-what-players-want</link>
+		<link>https://www.gamedeveloper.com/design/user-interface-design-in-video-games</link>
+		<link>http://devmag.org.za/2011/02/02/video-game-user-interface-design-diegesis-theory/</link>
+		<link>https://www.youtube.com/watch?v=-auyB19Mc6U</link> <!-- Extra Credits: Diegetic UI - Realistic, or Distracting? -->
+		<link>https://www.youtube.com/watch?v=ASXST_iyhl4</link> <!-- Fantastic Contraptions and Why VR Menus Suck -->
+		<link>texts/Galloway_GamingActionFourMoments.pdf</link>
+		<link>https://www.youtube.com/watch?v=H_4hOY-9nKA</link> <!-- Josh Hanson: Diagetic and Non-Diagetic Sound -->
+		<link>https://www.youtube.com/watch?v=FT_E9Jm_Lk8</link> <!-- Folding Ideas: Diagetic -->
+	</card>
+
+	<!--
+		==================================
+		Methods
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="designrules">design rules</title>
+		<text>really? # are they enough, are they already interface design? # categories? # usability? # how to?</text>
+		<link>https://www.nngroup.com/articles/usability-101-introduction-to-usability/</link>
+		<link>https://www.csun.edu/science/courses/671/bibliography/preece.html</link>
+		<link>texts/Johnson_DesigningWithTheMindInMind_UIRules.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="informationarchitecture">information/architecture</title>
+		<text>what is this? # relationship to games? # categorisation? # perfect vs. hidden information? # when to not show everything?</text>
+		<link>https://kotaku.com/5960230/the-ten-commandments-of-video-game-menus-sinners-and-saints</link>
+		<link>https://www.youtube.com/watch?v=bE_ZuNp1CTI</link> <!-- Design Doc: Good Design, Bad Design - The Best & Worst of Graphic Design in Games -->
+		<link>https://en.wikipedia.org/wiki/Perfect_information</link>
+		<link>https://medium.com/@tommygents/hidden-information-in-secret-hitler-f71d0251ee82</link>
+		<link>texts/Fullerton_InteractionPatterns.pdf</link>
+		<link>texts/Rosenfeld_IA_Intro.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="graphicdesign">graphic/design</title>
+		<text>how much graphic design is in interface design? # vfx? # visual design &#x26; data visualisation? # categorisation? # examples?</text>
+		<link>https://www.youtube.com/watch?v=bE_ZuNp1CTI</link> <!-- Design Doc: Good Design, Bad Design - The Best & Worst of Graphic Design in Games -->
+		<link>https://en.wikipedia.org/wiki/Information_design</link>
+		<link>https://en.wikipedia.org/wiki/Data_visualization</link>
+		<link>https://medium.com/game-design-fundamentals/graphic-design-for-game-designers-d752e5bece7f</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="devtools">development/tools</title>
+		<text>the UI of dev tools? # designing the interface of interface design? # examples? # how to design them?</text>
+		<link>http://leveldesignporn.csongorb.com/anyleveleditor.html</link>
+		<link>http://uxofgametools.com/</link>
+		<link>https://www.gamedeveloper.com/design/three-key-lessons-from-the-history-of-tools-programming</link>
+		<link>http://leveldesignporn.csongorb.com/tooldesign.html</link>
+		<link>http://leveldesignporn.csongorb.com/anyleveleditor.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>personas</title>
+		<text>what are they good for? # examples?</text>
+		<link>https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/personas</link>
+		<link>texts/AboutFace3_Personas.pdf</link>
+		<link>https://www.gdcvault.com/play/1020456/-Nuff-Said-Comics-as</link> <!-- Matthew Derby: Comics as Design Documentation (Harmonix) -->
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>wireframing</title>
+		<text>examples? # connection to one page designs? # possible issues?</text>
+		<link>https://medium.com/@seb_sonntag/game-ui-ux-the-state-of-wireframing-and-prototyping-tools-in-game-development-190260143669</link>
+		<link>texts/Rosenfeld_IA_Documentation.pdf</link>
+		<link>https://www.slideshare.net/unthank/game-design-2-lecture-5-game-ui-wireframes-and-paper-prototypes</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>customisation</title>
+		<text>categorisation? # difference to settings? # in-development, in-game or from the outside? # interface modding? # examples?</text>
+		<link>http://gamestudies.org/1202/articles/ui_mod_in_wow</link>
+		<link>https://www.researchgate.net/publication/262334163_Controlling_your_game_controls_interface_and_customization</link>
+		<link>http://leveldesignporn.csongorb.com/modding.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>debugging</title>
+		<text>game desing vs. technical values? # difference to customisable interfaces? # how does the debug interface change during development?</text>
+		<link>https://en.wikipedia.org/wiki/Debug_menu</link>
+		<link>https://www.reddit.com/r/gamedev/comments/2981u8/why_do_game_developers_remove_debugging_features/</link>
+		<link>https://www.youtube.com/watch?v=VzOEM-4A2OM</link> <!-- Game Dev Guide: Creating a Debug Cheat Console in Unity -->
+		<link>https://www.gamedeveloper.com/programming/how-to-debug</link>
+		<link>https://www.gamedeveloper.com/design/when-debug-ui-ruins-game-design-and-what-to-do-about-it-</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="responsivegamedesign">responsive/game design</title>
+		<text>relationship with modality? # examples? # difficulties? # classification?</text>
+		<link>https://developer.amazon.com/blogs/post/Tx21NJD7LRR0UEB/responsive-game-design-making-games-that-scale-across-desktop-mobile-and-tv</link>
+		<link>https://www.youtube.com/watch?v=VJGKDyrR8qc</link> <!-- Game Maker's Toolkit: Controllers Control Everything -->
+		<link>https://www.interaction-design.org/literature/article/adaptive-vs-responsive-design</link>
+		<link>http://store.steampowered.com/app/353370/Steam_Controller/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title>juice</title>
+		<text>or game feel? # examples? # why? # difficulties? # classification?</text>
+		<link>https://www.youtube.com/watch?v=Fy0aCDmgnxg</link> <!-- Juice it or lose it - a talk by Martin Jonasson & Petri Purho -->
+		<link>https://www.youtube.com/watch?v=AJdEqssNZ-U</link> <!-- Jan Willem Nijman: The art of screenshake -->
+		<link>https://www.youtube.com/watch?v=216_5nu4aVQ</link> <!-- Game Maker's Toolkit: Secrets of Game Feel & Juice -->
+		<link>https://www.gdcvault.com/play/1020861/Don-t-Juice-It-or</link> <!-- Folmer Kelly -->
+		<link>https://www.youtube.com/watch?v=pmSAG51BybY</link> <!-- Nicolae Berbece: Game Feel: Why Your Death Animation Sucks -->
+		<link>https://www.youtube.com/watch?v=S-EmAitPYg8</link> <!-- Gustav Dahl: Game Feel - Measuring the Influence of Acceleration and Deceleration (Medialogy, Aalborg University) -->
+		<link>https://www.gamedeveloper.com/business/my-time-with-the-steam-controller</link>
+		<link>https://twitter.com/maddythorson/status/1238338574220546049</link> <!-- A short thread on a few Celeste game-feel things :) -->
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="usertesting">user/testing</title>
+		<text>(how) is it different from player testing? # examples? # difficulties? # methodologies? # as part of the iterative process?</text>
+		<link>https://en.wikipedia.org/wiki/Usability_testing</link>
+		<link>http://gamesurconf.com/</link>
+		<link>https://www.gdcvault.com/play/1024132/Playtesting-Avoiding-Evil</link> <!-- Adriaan de Jongh: Playtesting -=C2=A0Avoid Evil Data -->
+		<link>https://www.juneydijkstra.com/wp-content/uploads/2014/05/dijkstra-juney-experimentation-project-analyzing-games-players.pdf</link>
+		<link>https://www.gamedeveloper.com/production/better-games-through-usability-evaluation-and-testing</link>
+		<link>https://www.gamedeveloper.com/business/video-make-your-games-better-with-playtesting-the-i-uncharted-i-way</link>
+		<link>https://www.linkedin.com/pulse/ux-walkthrough-anatomy-usability-test-video-games-part-1-om-tandon/</link>
+		<link>https://www.usertesting.com/blog/2015/02/05/user-testing-games/</link>
+		<link>https://www.nngroup.com/articles/game-user-research/</link>
+		<link>https://www.gamedeveloper.com/business/video-diagnosing-and-improving-ux-in-a-live-game</link>
+		<link>https://www.youtube.com/watch?v=mPD5dUBFsps</link> <!-- Intro to UX Design - User Experience and You - Extra Credits -->
+		<link>texts/Fullerton_GDWorkshop_Playtesting.pdf</link>
+		<link>texts/Schell_ArtOfGD_Playtesting.pdf</link>
+		<!-- test screening -->
+		<!-- link>http://filmmakermagazine.com/87026-at-a-test-screening/#.WTBu0saPBE4</link -->
+		<link>https://en.wikipedia.org/wiki/Test_screening</link>
+		<!-- link>http://mentalfloss.com/article/64467/11-movies-changed-because-test-audiences</link -->
+		<!-- link>http://www.denofgeek.com/movies/test-screenings/32412/51-films-and-how-they-were-affected-by-test-screenings</link -->
+		<!-- link>http://www.hollywoodreporter.com/news/test-screenings-138436</link -->
+		<!-- -->
+		<link>http://leveldesignporn.csongorb.com/analytics.html</link>
+	</card>
+
+	<!--
+		==================================
+		Elements
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>navigation</title>
+		<text>which part of the UI? # examples? # how to? # difficulties? # classification?</text>
+		<link>https://www.youtube.com/watch?v=k70_jvVOcG0</link> <!-- GMTK: Why Natan Drake Doesn't Need Compass? -->
+		<link>https://www.gamedeveloper.com/design/no-more-wrong-turns</link>
+		<link>http://leveldesignporn.csongorb.com/playernavigation.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>camera</title>
+		<text>examples? # difficulties? # classification?</text>
+		<link>https://www.gdcvault.com/play/1020460/50-Camera</link> <!-- John Nesky (GDC 2014): 50 Game Camera Mistakes -->
+		<link>https://www.youtube.com/watch?v=pdvCO97jOQk</link> <!-- Itay Keren (GDC 2015): Scroll Back - How Cameras in Side-Scrollers Work? -->
+		<link>https://www.gamedeveloper.com/design/scroll-back-the-theory-and-practice-of-cameras-in-side-scrollers</link>
+		<link>http://www.whatgamesare.com/2011/10/camera-comes-first-game-design.html</link>
+		<link>https://www.youtube.com/watch?v=bHdi5Ar8GXw</link> <!-- Game Maker's Toolkit: The Challenge of Cameras -->
+		<link>http://leveldesignporn.csongorb.com/movingperspective.html</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>menus</title>
+		<text>are they part of the game? # examples? # how to?</text>
+		<link>https://kotaku.com/5960230/the-ten-commandments-of-video-game-menus-sinners-and-saints</link>
+		<link>texts/Rosenfeld_IA_Documentation.pdf</link>
+		<link>texts/Fox_GameInterfaceDesign_PlanningMenuFlow.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>minimaps</title>
+		<text>history? # categorisation? # what are they for? # connection to other topics?</text>
+		<link>https://www.gamedeveloper.com/business/-where-should-we-place-the-mini-map-</link>
+		<link>http://www.popmatters.com/post/153477-/</link> <!-- Get rid of the Mini-map -->
+		<link>https://www.gamedeveloper.com/design/my-personal-crusade-against-mini-maps-and-other-corner-based-hud-elements-in-immersive-games-</link>
+		<link>https://dl.acm.org/doi/fullHtml/10.1145/3336144</link> <!-- Making Maps Available for Play: Analyzing the Design of Game Cartography Interfaces -->
+
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>taking notes</title>
+		<text>in-game or external? # part of the interface? # history? # categorisation?</text>
+		<link>https://www.theguardian.com/games/2019/apr/29/why-i-love-notebooks-in-video-games-red-dead-redemption-2-discworld-noir</link>
+		<link>https://saturdaymorninggaming.blogspot.com/2019/12/taking-notes-and-drawing-maps-while.html</link>
+		<link>https://unwinnable.com/2012/05/15/notes/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="3dmovement">3d/movement</title>
+		<text>how have the controls evolved? # history? # categorisation? # id software? # ultima underworld?</text>
+		<link>https://www.youtube.com/watch?v=VJGKDyrR8qc</link> <!-- Game Maker's Toolkit: Controllers Control Everything -->
+		<link>https://www.youtube.com/watch?v=QyjyWUrHsFc</link> <!-- Ahoi: A Brief History of Graphics -->
+		<link>https://www.youtube.com/watch?v=zb6Eo1D6VW8</link> <!-- The Game Theoristis: Doom WASN'T 3D! - Digressing and Sidequesting -->
+		<link><![CDATA[https://www.youtube.com/watch?v=fMP4gz-fhf0&list=PLc3r8OvpITM7_vZpcIeMucnwVnsToWhVq]]></link> <!-- Wulf Den (YouTube): History of Modern Control Schemes -->
+		<link><![CDATA[https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=76f3d23b46896af6e602ad28436f9ec774a67d7e]]></link> <!-- Alastair H. Cummings: The Evolution of Game Controllers and Control Schemes and their Effect on their games -->
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="vrmovement">VR/movement</title>
+		<text>how has it evolved? # examples? # difficulties? # classification?</text>
+		<link>https://www.uxofvr.com</link>
+		<link>https://www.gdcvault.com/play/1023656/Cognitive-Psychology-of-Virtual-Reality</link>
+		<link>https://developer.oculus.com/blog/research-into-comfortable-locomotion/</link>
+		<link>https://www.gamedeveloper.com/design/video-a-game-designer-s-overview-of-the-neuroscience-of-vr</link>
+		<link>https://www.youtube.com/watch?v=8PoKx0EUqRE</link> <!-- Ready Player One Movement (David Dewhirst) -->
+		<link>https://www.gamedeveloper.com/design/the-design-of-the-portal-locomotion</link>
+		<link>https://www.gamedeveloper.com/design/lessons-learned-from-five-years-of-vr-locomotion-experiments</link>
+		<link>http://www.mdpi.com/2414-4088/1/4/24</link> <!-- Costas Boletsis: The New Era of Virtual Reality Locomotion: A Systematic... -->
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title>doors</title>
+		<text>how have they evolved? # examples? # difficulties? # classification?</text>
+		<link>https://twitter.com/talecrafter/status/1369153361270935554</link> <!-- Hövelbrinks: Doors -->
+		<link>https://www.theverge.com/22328169/game-development-doors-design-difficult</link>
+		<link>http://www.lizengland.com/blog/2014/04/the-door-problem/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="gameoverscreen">game over/screen</title>
+		<text>what values to display? # how has it evolved? # examples? # difficulties? # classification?</text>
+		<link>https://en.wikipedia.org/wiki/Game_over</link>
+		<link>https://www.gamedeveloper.com/design/how-post-game-screens-keep-us-playing-or-don-t-</link>
+		<link>https://www.gamewatcher.com/news/fortnite-post-game-stats-and-suggestions</link>
+		<link>https://tvtropes.org/pmwiki/pmwiki.php/Main/EndGameResultsScreen</link>
+		<link>https://tvtropes.org/pmwiki/pmwiki.php/Main/ScoreScreen</link>
+		<link>https://www.gameuidatabase.com/index.php?scrn=53</link> <!-- Results Screens -->
+	</card>
+
+	<card>
+		<cardCategoryId>3</cardCategoryId>
+		<title forcedFilename="otherinterfaces">other/interfaces</title>
+		<text>standard, new, innovative? # how has hardware evolved? # input &#x26; output? # sensors &#x26; actors? # examples? # classification?</text>
+		<link>https://en.wikipedia.org/wiki/Input/output</link>
+		<link>https://www.arduino.cc/</link>
+		<link>https://gdconf.com/alt-ctrl-gdc/archive</link>
+		<link>https://www.eurogamer.net/articles/digitalfoundry-kinect-hacks-article</link>
+		<link>http://johnnylee.net/</link>
+		<link>https://en.wikipedia.org/wiki/MIDI</link>
+		<link>https://en.wikipedia.org/wiki/Speech_recognition</link>
+	</card>
+
+	<!--
+		==================================
+		Games
+		==================================
+	-->
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="shadowtactics">shadow/tactics</title>
+		<text>related theories &#x26; methods? # development history? # important decisions? structure?</text>
+		<link>https://en.wikipedia.org/wiki/Shadow_Tactics:_Blades_of_the_Shogun</link>
+		<link>https://www.polygon.com/2016/12/16/13977280/shadow-tactics-blades-of-the-shogun-review-pc-windows</link>
+		<link>https://www.gamedeveloper.com/business/postmortem-mimimi-s-i-shadow-tactics-blades-of-the-shogun-i-</link>
+		<link>https://www.gdcvault.com/play/1025239/-Shadow-Tactics-Postmortem-Commandos</link> <!-- GDC 2018 -->
+		<link>https://www.gamedeveloper.com/design/game-design-deep-dive-dynamic-detection-in-i-shadow-tactics-i-</link>
+		<link>https://www.youtube.com/watch?v=oKGwfbwUcsc</link> <!-- Unite Europe 2017 - Shadow Tactics: Blades of the Engine -->
+		<link>texts/shadowtactics/ShadowTactics_UIevolution.pdf</link>
+		<link>texts/shadowtactics/MakingGames_1712_ShadowTactics.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="lonelymountains">lonely/mountains:/downhill</title>
+		<text>related theories &#x26; methods? # development history? # important decisions? # structure?</text>
+		<link>https://leveldesignporn.csongorb.org/lmd.html</link>
+		<link>texts/MakingGames_2012_LonelyMountains.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title forcedFilename="obradinn">return of/the obra dinn</title>
+		<text>related theories &#x26; methods? # development history? # important decisions? structure?</text>
+		<link>https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn</link>
+		<link>https://twitter.com/dukope/status/1317635107432267776?lang=en</link> <!-- Back in 2015 I wrote a set of tools to record full 3D diffs... -->
+		<link>https://www.gamedeveloper.com/business/road-to-the-igf-lucas-pope-s-i-return-of-the-obra-dinn-i-</link>
+		<link>https://www.gamedeveloper.com/design/for-lucas-pope-i-return-of-the-obra-dinn-i-was-a-bunch-of-appealing-design-problems</link>
+		<link>https://www.youtube.com/watch?v=eTUMnE6gzoE</link> <!-- GDC Live Q&A: Lucas Pope and Return of the Obra Dinn -->
+		<link>https://www.rockpapershotgun.com/how-a-book-binds-the-return-of-the-obra-dinn</link>
+		<link>https://www.youtube.com/watch?v=V0qxLrFycrc</link> <!-- GMTK: How Return of the Obra Dinn Works | GMTK Most Innovative 2018 -->
+		<link>https://emshort.blog/2019/06/06/return-of-the-obra-dinn-lucas-pope/</link>
+		<link>https://intermittentmechanism.blog/tag/return-of-the-obra-dinn/</link>
+		<link>https://www.youtube.com/watch?v=OMi6xgdSbMA</link> <!-- Ars Technica: How Localizing Return of the Obra Dinn Nearly Sunk the Game | War Stories -->
+		<link>https://arstechnica.com/gaming/2019/01/from-uncharted-to-obra-dinn-lucas-pope-dishes-on-his-illustrious-game-dev-career/</link>
+		<link>https://noclippodcast.libsyn.com/07-lucas-pope</link>
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>sim city</title>
+		<text>related theories &#x26; methods? # development history? # important decisions? structure?</text>
+		<link>https://en.wikipedia.org/wiki/SimCity_(1989_video_game)</link>
+		<link>https://gamehistory.org/simcity/</link>
+		<link>https://hiddenpalace.org/SimCity_(NES_prototype)</link>
+		<link>https://donhopkins.medium.com/har-2009-lightning-talk-transcript-constructionist-educational-open-source-simcity-by-don-3a9e010bf305</link>
+		<link>https://www.graememcc.co.uk/micropolisJS/</link> <!-- Micropolis (Open Source version) - Play Online -->
+		<link>https://escholarship.org/uc/item/8qr533m2</link> <!-- Chaim Gingold: Play Design (incl. a lot about Sim City) -->
+		<link>https://vimeo.com/322347260</link> <!-- Chaim Gingold: The Deep History of SimCity: What Makes a Simulation Tick? -->
+		<link>https://www.youtube.com/watch?v=7W42T0tf9WQ</link> <!-- Chaim Gingold: Play Design: SimCity, Simulation, and Geology -->
+		<link>texts/Moggridge_DesigningInteraction_Play_WillWright.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>vectronom</title>
+		<text>related theories &#x26; methods? # development history? # important decisions? structure?</text>
+		<link>https://www.gamedeveloper.com/audio/road-to-the-igf-ludopium-s-i-vectronom-i-</link>
+		<link>https://vectronom.arte.tv/midi/</link>
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>baba is you</title>
+		<text>related theories &#x26; methods? # development history? # important decisions? structure?</text>
+		<link>https://devolution6.glitch.me/#baba</link>
+		<link>https://miro.com/app/board/o9J_kpjQ1As=/</link> <!-- Devolution Miro board -->
+		<link>https://www.youtube.com/watch?v=7zLwa4bztWs</link> <!-- GMTK: How Baba Is You Works -->
+	</card>
+
+	<card>
+		<cardCategoryId>4</cardCategoryId>
+		<title>any game</title>
+		<text>related theories, methods, disciplines? # how does the interface work?</text>
+		<link>http://www.mobygames.com</link>
+		<link>https://www.kickstarter.com/projects/2093152267/the-metagame-discuss/posts/668406</link>
+	</card>
+
+</cards>
