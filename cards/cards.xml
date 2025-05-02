@@ -135,8 +135,9 @@
 		<link>https://web.archive.org/web/20211204174307/https://redalemeden.com/itunes/</link>
 		<link>https://www.youtube.com/watch?v=R_sear6P058</link> <!-- How To Choose a Theme for Your Game? (Plants vs. Zombies) -->
 		<link>https://medium.com/@borism/menus-metaphors-and-materials-milestones-of-user-interface-design-f3f75481c46c</link>
-		<link>http://narrativedesignporn.csongorb.com/themevsmechanics.html</link>
+		<link><![CDATA[https://csongorb.github.io/narrativedesigncards/?card=themevsmechanics&open=true]]></link>
 		<link>texts/Moggridge_DesigningInteraction_DesktopPC.pdf</link>
+		<link>https://pippinbarr.com/research/user-interface-metaphors-in-theory-and-practice-pippin-barr-msc.pdf</link>
 	</card>
 
 	<card>
@@ -150,7 +151,7 @@
 		<link>https://www.youtube.com/watch?v=QCSXEKHL6fc</link> <!-- Extra Credits: Affordances -->
 		<link>https://99percentinvisible.org/article/norman-doors-dont-know-whether-push-pull-blame-design/</link>
 		<link>https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affordances</link>
-		<link>http://narrativedesignporn.csongorb.com/themevsmechanics.html</link>
+		<link><![CDATA[https://csongorb.github.io/narrativedesigncards/?card=themevsmechanics&open=true]]></link>
 	</card>
 
 	<card>
@@ -162,8 +163,8 @@
 		<link>https://www.gamedeveloper.com/design/the-chemistry-of-game-design</link>
 		<link>https://simonschreibt.de/gdt/sacred-2-floating-point-numbers/</link>
 		<link>https://www.youtube.com/watch?v=3DaxkPXCNjOh8</link> <!-- Hearthstone: How to Create an Immersive User Interface -->
-		<link>http://leveldesignporn.csongorb.com/cognitivemodeling.html</link>
-		<link>http://leveldesignporn.csongorb.com/mentalmaps.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=cognitivemodeling&open=true]]></link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=mentalmaps&open=true]]></link>
 	</card>
 
 	<card>
@@ -182,7 +183,7 @@
 		<link>texts/Norman_DesignOfEverydayThings_Mapping.pdf</link>
 		<link>https://en.wikipedia.org/wiki/Natural_mapping_(interface_design)</link>
 		<!-- link>https://sites.google.com/site/thedesignofeverydaythings/home/mappings</link-->
-		<link>http://leveldesignporn.csongorb.com/mentalmaps.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=mentalmaps&open=true]]></link>
 	</card>
 
 	<card>
@@ -193,8 +194,8 @@
 		<link>https://en.wikipedia.org/wiki/The_Humane_Interface</link>
 		<link>https://www.amazon.com/Designing-Mind-Understanding-Interface-Guidelines/dp/0124079148</link>
 		<link>https://en.wikipedia.org/wiki/Sense</link>
-		<link>https://leveldesignporn.csongorb.com/visualperception.html</link>
-		<link>https://leveldesignporn.csongorb.com/cognitivemodeling.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=visualperception&open=true]]></link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=cognitivemodeling&open=true]]></link>
 	</card>
 
 	<card>
@@ -262,11 +263,10 @@
 		<cardCategoryId>2</cardCategoryId>
 		<title forcedFilename="devtools">development/tools</title>
 		<text>the UI of dev tools? # designing the interface of interface design? # examples? # how to design them?</text>
-		<link>http://leveldesignporn.csongorb.com/anyleveleditor.html</link>
 		<link>http://uxofgametools.com/</link>
 		<link>https://www.gamedeveloper.com/design/three-key-lessons-from-the-history-of-tools-programming</link>
-		<link>http://leveldesignporn.csongorb.com/tooldesign.html</link>
-		<link>http://leveldesignporn.csongorb.com/anyleveleditor.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=tooldesign&open=true]]></link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=anyleveleditor&open=true]]></link>
 	</card>
 
 	<card>
@@ -293,7 +293,7 @@
 		<text>categorisation? # difference to settings? # in-development, in-game or from the outside? # interface modding? # examples?</text>
 		<link>http://gamestudies.org/1202/articles/ui_mod_in_wow</link>
 		<link>https://www.researchgate.net/publication/262334163_Controlling_your_game_controls_interface_and_customization</link>
-		<link>http://leveldesignporn.csongorb.com/modding.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=modding&open=true]]></link>
 	</card>
 
 	<card>
@@ -355,7 +355,7 @@
 		<!-- link>http://www.denofgeek.com/movies/test-screenings/32412/51-films-and-how-they-were-affected-by-test-screenings</link -->
 		<!-- link>http://www.hollywoodreporter.com/news/test-screenings-138436</link -->
 		<!-- -->
-		<link>http://leveldesignporn.csongorb.com/analytics.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=analytics&open=true]]></link>
 	</card>
 
 	<!--
@@ -370,7 +370,7 @@
 		<text>which part of the UI? # examples? # how to? # difficulties? # classification?</text>
 		<link>https://www.youtube.com/watch?v=k70_jvVOcG0</link> <!-- GMTK: Why Natan Drake Doesn't Need Compass? -->
 		<link>https://www.gamedeveloper.com/design/no-more-wrong-turns</link>
-		<link>http://leveldesignporn.csongorb.com/playernavigation.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=playernavigation&open=true]]></link>
 	</card>
 
 	<card>
@@ -382,7 +382,7 @@
 		<link>https://www.gamedeveloper.com/design/scroll-back-the-theory-and-practice-of-cameras-in-side-scrollers</link>
 		<link>http://www.whatgamesare.com/2011/10/camera-comes-first-game-design.html</link>
 		<link>https://www.youtube.com/watch?v=bHdi5Ar8GXw</link> <!-- Game Maker's Toolkit: The Challenge of Cameras -->
-		<link>http://leveldesignporn.csongorb.com/movingperspective.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=movingperspective&open=true]]></link>
 	</card>
 
 	<card>
@@ -497,7 +497,7 @@
 		<cardCategoryId>4</cardCategoryId>
 		<title forcedFilename="lonelymountains">lonely/mountains:/downhill</title>
 		<text>related theories &#x26; methods? # development history? # important decisions? # structure?</text>
-		<link>https://leveldesignporn.csongorb.org/lmd.html</link>
+		<link><![CDATA[https://csongorb.github.io/leveldesigncards/?card=lmd&open=true]]></link>
 		<link>texts/MakingGames_2012_LonelyMountains.pdf</link>
 	</card>
 
