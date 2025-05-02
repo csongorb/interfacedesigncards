@@ -142,6 +142,16 @@
 
 	<card>
 		<cardCategoryId>1</cardCategoryId>
+		<title>interface/as layer</title>
+		<text>examples? # what does tech allow &#x26; enable? # what not? # what does it separate? # how can the separation be used? # relationship with other topics?</text>
+		<link>https://www.interaction-design.org/literature/article/the-rules-of-play-directing-gamer-and-user-behaviour</link> <!-- Operational Rules... -->
+		<link>https://computerscience.chemeketa.edu/cis125greader/GamesAsSystems/Rules.html</link>
+		<link>https://en.wikipedia.org/wiki/CSS</link>
+		<link>https://steamcommunity.com/sharedfiles/filedetails/?id=2804823261</link> <!-- Steam Deck Controller Guide - A Visual Introduction -->
+	</card>
+
+	<card>
+		<cardCategoryId>1</cardCategoryId>
 		<title forcedFilename="affordancesandsignifiers">affordances/&#x26; signifiers</title>
 		<text>how are they connected? # how are they different? # how are they used in games? # examples?</text>
 		<link><![CDATA[https://www.youtube.com/watch?v=a6F0EYCUjcE&list=PLAwxTw4SYaPlr4Uq3RoYuwlDADp0WQdGl&index=10]]></link> <!-- Affordance Definition (Udacity) -->
@@ -247,6 +257,16 @@
 		<link>https://medium.com/@tommygents/hidden-information-in-secret-hitler-f71d0251ee82</link>
 		<link>texts/Fullerton_InteractionPatterns.pdf</link>
 		<link>texts/Rosenfeld_IA_Intro.pdf</link>
+	</card>
+
+	<card>
+		<cardCategoryId>2</cardCategoryId>
+		<title forcedFilename="playercommunication">player/communication</title>
+		<text>what is this? # player to player? # categorisation? # social dynamics? # relationship to community management? # ethics?</text>
+		<link>https://lostgarden.com/2025/03/22/what-is-a-social-systems-designer/</link>
+		<link>https://lostgarden.com/2023/04/07/a-design-practice-for-social-systems/</link>
+		<link>https://www.raphkoster.com/wp-content/uploads/2011/02/Koster_Social_Social-mechanics_GDC2011.pdf</link>
+		<link>https://arxiv.org/html/2502.00627v1</link> <!-- Discord Unveiled: A Comprehensive Dataset of Public Communication (2015-2024) -->
 	</card>
 
 	<card>
