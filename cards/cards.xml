@@ -232,6 +232,16 @@
 		<link>https://www.youtube.com/watch?v=FT_E9Jm_Lk8</link> <!-- Folding Ideas: Diagetic -->
 	</card>
 
+	<card>
+		<cardCategoryId>1</cardCategoryId>
+		<title>semiotics</title>
+		<text>history? # application on games? # categories?</text>
+		<link>https://en.wikipedia.org/wiki/Semiotics</link>
+		<link>https://www.bloomsbury.com/uk/semiotics-of-toys-and-games-9781350324893/</link>
+		<link>https://www.researchgate.net/publication/362249938_The_Semiotics_of_Architecture_in_Video_Games</link>
+		<link>https://www.hrenatoh.net/08c.pdf</link> <!-- Gameotics: a game analysis method based on Semiotics -->
+	</card>
+
 	<!--
 		==================================
 		Methods
